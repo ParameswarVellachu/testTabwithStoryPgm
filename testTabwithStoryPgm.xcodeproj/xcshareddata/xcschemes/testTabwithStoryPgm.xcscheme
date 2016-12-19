@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F7CA97371E07AB1100D1161B"
-               BuildableName = "testTabPgm.app"
-               BlueprintName = "testTabPgm"
-               ReferencedContainer = "container:testTabPgm.xcodeproj">
+               BuildableName = "testTabwithStoryPgm.app"
+               BlueprintName = "testTabwithStoryPgm"
+               ReferencedContainer = "container:testTabwithStoryPgm.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,24 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F7CA97531E07AB1200D1161B"
-               BuildableName = "testTabPgmTests.xctest"
-               BlueprintName = "testTabPgmTests"
-               ReferencedContainer = "container:testTabPgm.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7CA97371E07AB1100D1161B"
-            BuildableName = "testTabPgm.app"
-            BlueprintName = "testTabPgm"
-            ReferencedContainer = "container:testTabPgm.xcodeproj">
+            BuildableName = "testTabwithStoryPgm.app"
+            BlueprintName = "testTabwithStoryPgm"
+            ReferencedContainer = "container:testTabwithStoryPgm.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7CA97371E07AB1100D1161B"
-            BuildableName = "testTabPgm.app"
-            BlueprintName = "testTabPgm"
-            ReferencedContainer = "container:testTabPgm.xcodeproj">
+            BuildableName = "testTabwithStoryPgm.app"
+            BlueprintName = "testTabwithStoryPgm"
+            ReferencedContainer = "container:testTabwithStoryPgm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7CA97371E07AB1100D1161B"
-            BuildableName = "testTabPgm.app"
-            BlueprintName = "testTabPgm"
-            ReferencedContainer = "container:testTabPgm.xcodeproj">
+            BuildableName = "testTabwithStoryPgm.app"
+            BlueprintName = "testTabwithStoryPgm"
+            ReferencedContainer = "container:testTabwithStoryPgm.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

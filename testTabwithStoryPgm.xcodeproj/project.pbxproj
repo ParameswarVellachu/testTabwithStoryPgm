@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7B6C9381E07B8BA00DE123E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B6C9371E07B8BA00DE123E /* ThirdViewController.m */; };
+		F7B6C93B1E07BB6E00DE123E /* FourthView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B6C93A1E07BB6E00DE123E /* FourthView.m */; };
+		F7B6C93E1E07C14600DE123E /* FiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B6C93D1E07C14600DE123E /* FiveView.m */; };
+		F7B6C9411E07C15100DE123E /* SixView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B6C9401E07C15100DE123E /* SixView.m */; };
+		F7B6C9441E07D8F000DE123E /* InitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B6C9431E07D8F000DE123E /* InitialView.m */; };
 		F7CA973D1E07AB1100D1161B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CA973C1E07AB1100D1161B /* main.m */; };
 		F7CA97401E07AB1200D1161B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CA973F1E07AB1200D1161B /* AppDelegate.m */; };
 		F7CA97431E07AB1200D1161B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CA97421E07AB1200D1161B /* FirstViewController.m */; };
@@ -14,7 +19,8 @@
 		F7CA97491E07AB1200D1161B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CA97471E07AB1200D1161B /* Main.storyboard */; };
 		F7CA974B1E07AB1200D1161B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CA974A1E07AB1200D1161B /* Assets.xcassets */; };
 		F7CA974E1E07AB1200D1161B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CA974C1E07AB1200D1161B /* LaunchScreen.storyboard */; };
-		F7CA97591E07AB1200D1161B /* testTabPgmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CA97581E07AB1200D1161B /* testTabPgmTests.m */; };
+		F7CA97591E07AB1200D1161B /* testTabwithStoryPgmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CA97581E07AB1200D1161B /* testTabwithStoryPgmTests.m */; };
+		F7E319791E07F0330088979E /* CustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E319781E07F0330088979E /* CustomTabbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F7CA97381E07AB1100D1161B /* testTabPgm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTabPgm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B6C9361E07B8BA00DE123E /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		F7B6C9371E07B8BA00DE123E /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		F7B6C9391E07BB6E00DE123E /* FourthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthView.h; sourceTree = "<group>"; };
+		F7B6C93A1E07BB6E00DE123E /* FourthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthView.m; sourceTree = "<group>"; };
+		F7B6C93C1E07C14600DE123E /* FiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveView.h; sourceTree = "<group>"; };
+		F7B6C93D1E07C14600DE123E /* FiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveView.m; sourceTree = "<group>"; };
+		F7B6C93F1E07C15100DE123E /* SixView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixView.h; sourceTree = "<group>"; };
+		F7B6C9401E07C15100DE123E /* SixView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixView.m; sourceTree = "<group>"; };
+		F7B6C9421E07D8F000DE123E /* InitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InitialView.h; path = ../InitialView.h; sourceTree = "<group>"; };
+		F7B6C9431E07D8F000DE123E /* InitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InitialView.m; path = ../InitialView.m; sourceTree = "<group>"; };
+		F7CA97381E07AB1100D1161B /* testTabwithStoryPgm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTabwithStoryPgm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7CA973C1E07AB1100D1161B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7CA973E1E07AB1200D1161B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7CA973F1E07AB1200D1161B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,9 +56,11 @@
 		F7CA974A1E07AB1200D1161B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7CA974D1E07AB1200D1161B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7CA974F1E07AB1200D1161B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7CA97541E07AB1200D1161B /* testTabPgmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTabPgmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7CA97581E07AB1200D1161B /* testTabPgmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTabPgmTests.m; sourceTree = "<group>"; };
+		F7CA97541E07AB1200D1161B /* testTabwithStoryPgm.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTabwithStoryPgm.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CA97581E07AB1200D1161B /* testTabwithStoryPgmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTabwithStoryPgmTests.m; sourceTree = "<group>"; };
 		F7CA975A1E07AB1200D1161B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E319771E07F0330088979E /* CustomTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabbar.h; sourceTree = "<group>"; };
+		F7E319781E07F0330088979E /* CustomTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +84,8 @@
 		F7CA972F1E07AB1100D1161B = {
 			isa = PBXGroup;
 			children = (
-				F7CA973A1E07AB1100D1161B /* testTabPgm */,
-				F7CA97571E07AB1200D1161B /* testTabPgmTests */,
+				F7CA973A1E07AB1100D1161B /* testTabwithStoryPgm */,
+				F7CA97571E07AB1200D1161B /* testTabwithStoryPgmTests */,
 				F7CA97391E07AB1100D1161B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,27 +93,40 @@
 		F7CA97391E07AB1100D1161B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7CA97381E07AB1100D1161B /* testTabPgm.app */,
-				F7CA97541E07AB1200D1161B /* testTabPgmTests.xctest */,
+				F7CA97381E07AB1100D1161B /* testTabwithStoryPgm.app */,
+				F7CA97541E07AB1200D1161B /* testTabwithStoryPgm.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7CA973A1E07AB1100D1161B /* testTabPgm */ = {
+		F7CA973A1E07AB1100D1161B /* testTabwithStoryPgm */ = {
 			isa = PBXGroup;
 			children = (
 				F7CA973E1E07AB1200D1161B /* AppDelegate.h */,
 				F7CA973F1E07AB1200D1161B /* AppDelegate.m */,
+				F7E319771E07F0330088979E /* CustomTabbar.h */,
+				F7E319781E07F0330088979E /* CustomTabbar.m */,
+				F7B6C9421E07D8F000DE123E /* InitialView.h */,
+				F7B6C9431E07D8F000DE123E /* InitialView.m */,
 				F7CA97411E07AB1200D1161B /* FirstViewController.h */,
 				F7CA97421E07AB1200D1161B /* FirstViewController.m */,
 				F7CA97441E07AB1200D1161B /* SecondViewController.h */,
 				F7CA97451E07AB1200D1161B /* SecondViewController.m */,
+				F7B6C9361E07B8BA00DE123E /* ThirdViewController.h */,
+				F7B6C9371E07B8BA00DE123E /* ThirdViewController.m */,
+				F7B6C9391E07BB6E00DE123E /* FourthView.h */,
+				F7B6C93A1E07BB6E00DE123E /* FourthView.m */,
+				F7B6C93C1E07C14600DE123E /* FiveView.h */,
+				F7B6C93D1E07C14600DE123E /* FiveView.m */,
+				F7B6C93F1E07C15100DE123E /* SixView.h */,
+				F7B6C9401E07C15100DE123E /* SixView.m */,
 				F7CA97471E07AB1200D1161B /* Main.storyboard */,
 				F7CA974A1E07AB1200D1161B /* Assets.xcassets */,
 				F7CA974C1E07AB1200D1161B /* LaunchScreen.storyboard */,
 				F7CA974F1E07AB1200D1161B /* Info.plist */,
 				F7CA973B1E07AB1100D1161B /* Supporting Files */,
 			);
+			name = testTabwithStoryPgm;
 			path = testTabPgm;
 			sourceTree = "<group>";
 		};
@@ -107,21 +138,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F7CA97571E07AB1200D1161B /* testTabPgmTests */ = {
+		F7CA97571E07AB1200D1161B /* testTabwithStoryPgmTests */ = {
 			isa = PBXGroup;
 			children = (
-				F7CA97581E07AB1200D1161B /* testTabPgmTests.m */,
+				F7CA97581E07AB1200D1161B /* testTabwithStoryPgmTests.m */,
 				F7CA975A1E07AB1200D1161B /* Info.plist */,
 			);
+			name = testTabwithStoryPgmTests;
 			path = testTabPgmTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7CA97371E07AB1100D1161B /* testTabPgm */ = {
+		F7CA97371E07AB1100D1161B /* testTabwithStoryPgm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7CA975D1E07AB1200D1161B /* Build configuration list for PBXNativeTarget "testTabPgm" */;
+			buildConfigurationList = F7CA975D1E07AB1200D1161B /* Build configuration list for PBXNativeTarget "testTabwithStoryPgm" */;
 			buildPhases = (
 				F7CA97341E07AB1100D1161B /* Sources */,
 				F7CA97351E07AB1100D1161B /* Frameworks */,
@@ -131,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = testTabPgm;
+			name = testTabwithStoryPgm;
 			productName = testTabPgm;
-			productReference = F7CA97381E07AB1100D1161B /* testTabPgm.app */;
+			productReference = F7CA97381E07AB1100D1161B /* testTabwithStoryPgm.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7CA97531E07AB1200D1161B /* testTabPgmTests */ = {
+		F7CA97531E07AB1200D1161B /* testTabwithStoryPgmTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7CA97601E07AB1200D1161B /* Build configuration list for PBXNativeTarget "testTabPgmTests" */;
+			buildConfigurationList = F7CA97601E07AB1200D1161B /* Build configuration list for PBXNativeTarget "testTabwithStoryPgmTests" */;
 			buildPhases = (
 				F7CA97501E07AB1200D1161B /* Sources */,
 				F7CA97511E07AB1200D1161B /* Frameworks */,
@@ -149,9 +181,9 @@
 			dependencies = (
 				F7CA97561E07AB1200D1161B /* PBXTargetDependency */,
 			);
-			name = testTabPgmTests;
+			name = testTabwithStoryPgmTests;
 			productName = testTabPgmTests;
-			productReference = F7CA97541E07AB1200D1161B /* testTabPgmTests.xctest */;
+			productReference = F7CA97541E07AB1200D1161B /* testTabwithStoryPgm.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -172,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7CA97331E07AB1100D1161B /* Build configuration list for PBXProject "testTabPgm" */;
+			buildConfigurationList = F7CA97331E07AB1100D1161B /* Build configuration list for PBXProject "testTabwithStoryPgm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -185,8 +217,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7CA97371E07AB1100D1161B /* testTabPgm */,
-				F7CA97531E07AB1200D1161B /* testTabPgmTests */,
+				F7CA97371E07AB1100D1161B /* testTabwithStoryPgm */,
+				F7CA97531E07AB1200D1161B /* testTabwithStoryPgmTests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,9 +248,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B6C9441E07D8F000DE123E /* InitialView.m in Sources */,
 				F7CA97461E07AB1200D1161B /* SecondViewController.m in Sources */,
+				F7B6C9381E07B8BA00DE123E /* ThirdViewController.m in Sources */,
 				F7CA97401E07AB1200D1161B /* AppDelegate.m in Sources */,
+				F7B6C9411E07C15100DE123E /* SixView.m in Sources */,
+				F7B6C93E1E07C14600DE123E /* FiveView.m in Sources */,
 				F7CA97431E07AB1200D1161B /* FirstViewController.m in Sources */,
+				F7B6C93B1E07BB6E00DE123E /* FourthView.m in Sources */,
+				F7E319791E07F0330088979E /* CustomTabbar.m in Sources */,
 				F7CA973D1E07AB1100D1161B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7CA97591E07AB1200D1161B /* testTabPgmTests.m in Sources */,
+				F7CA97591E07AB1200D1161B /* testTabwithStoryPgmTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +274,7 @@
 /* Begin PBXTargetDependency section */
 		F7CA97561E07AB1200D1161B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7CA97371E07AB1100D1161B /* testTabPgm */;
+			target = F7CA97371E07AB1100D1161B /* testTabwithStoryPgm */;
 			targetProxy = F7CA97551E07AB1200D1161B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -350,7 +388,8 @@
 				INFOPLIST_FILE = testTabPgm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.testTabPgm";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = testTabwithStoryPgm;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -361,7 +400,8 @@
 				INFOPLIST_FILE = testTabPgm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.testTabPgm";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = testTabwithStoryPgm;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -372,8 +412,8 @@
 				INFOPLIST_FILE = testTabPgmTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.testTabPgmTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testTabPgm.app/testTabPgm";
+				PRODUCT_NAME = testTabwithStoryPgm;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testTabwithStoryPgm.app/testTabwithStoryPgm";
 			};
 			name = Debug;
 		};
@@ -384,15 +424,15 @@
 				INFOPLIST_FILE = testTabPgmTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.testTabPgmTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testTabPgm.app/testTabPgm";
+				PRODUCT_NAME = testTabwithStoryPgm;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testTabwithStoryPgm.app/testTabwithStoryPgm";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7CA97331E07AB1100D1161B /* Build configuration list for PBXProject "testTabPgm" */ = {
+		F7CA97331E07AB1100D1161B /* Build configuration list for PBXProject "testTabwithStoryPgm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7CA975B1E07AB1200D1161B /* Debug */,
@@ -401,21 +441,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7CA975D1E07AB1200D1161B /* Build configuration list for PBXNativeTarget "testTabPgm" */ = {
+		F7CA975D1E07AB1200D1161B /* Build configuration list for PBXNativeTarget "testTabwithStoryPgm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7CA975E1E07AB1200D1161B /* Debug */,
 				F7CA975F1E07AB1200D1161B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F7CA97601E07AB1200D1161B /* Build configuration list for PBXNativeTarget "testTabPgmTests" */ = {
+		F7CA97601E07AB1200D1161B /* Build configuration list for PBXNativeTarget "testTabwithStoryPgmTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7CA97611E07AB1200D1161B /* Debug */,
 				F7CA97621E07AB1200D1161B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
